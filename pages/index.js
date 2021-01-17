@@ -36,14 +36,19 @@ class Home extends React.Component {
           <title>Você foi metaforado</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-  
-        <main className={styles.main}>
-          <h1 className={styles.title}>
+        
+        <h1 className={styles.title}>
             Você foi metaforado
           </h1>
+        <main className={styles.main}>
+          
+
+          <div>
           <p className={styles.analysis}>
               {this.state.analysis}
           </p>
+          </div>
+          
   
           <div className={styles.description}>
           <p  onClick={this.onClick}>Gerar aleatório</p>
