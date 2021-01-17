@@ -2,9 +2,11 @@
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
+  background-color: #004882;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fafafa;
 }
 
 .main {
@@ -49,17 +51,20 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 .title,
 .description {
+  color: #60666d;
   text-align: center;
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #eaeaea;
 }
 
 .code {
@@ -67,6 +72,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
+  color: #000;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -78,6 +84,19 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+}
+
+.expressionModes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.mode {
+  padding: 0.25rem;
 }
 
 .card {
@@ -112,6 +131,17 @@
 
 .logo {
   height: 1em;
+}
+
+.select {
+  border-radius: 5px;
+  padding: 0.5rem;
+  position: relative;
+  display: block;
+  width: 20%;
+  margin: 3rem auto;
+  font-size: 18px;
+  color: #60666d;
 }
 
 @media (max-width: 600px) {
