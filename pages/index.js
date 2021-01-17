@@ -69,6 +69,7 @@ class Home extends React.Component {
         </main>
   
         <footer className={styles.footer}>
+          <p className={styles.textFooter}><a href="https://www.youtube.com/c/Metaforando">Canal Metaforando</a></p>
           <p><a href="https://github.com/josemiguelq/vocefoimetaforado" target="_blank">Github</a></p>
         </footer>
       </div>

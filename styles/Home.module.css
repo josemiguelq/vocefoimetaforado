@@ -147,6 +147,11 @@
   height: 1em;
 }
 
+.textFooter {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 @media (max-width: 800px) {
   .grid {
     width: 100%;
