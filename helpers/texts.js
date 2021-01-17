@@ -34,7 +34,7 @@ export default {
             'Existe uma mudança na linha de base e o fluxo de piscadas está bem elevado e também vemos um aumento na abertura ocular, indicando ansiedade',
         ],
         rage: [
-            // 'Contração na regiao glabelar',
+            'Um pico de contração na regiao glabelar, região entre os olhos, uma micro expressao de raiza',
             // 'projeção prossemica '
         ]
 }

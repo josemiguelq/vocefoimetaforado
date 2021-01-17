@@ -36,7 +36,7 @@ class Home extends React.Component {
           <title>Você foi metaforado</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        
+
         <h1 className={styles.title}>
             Você foi metaforado
           </h1>
@@ -59,11 +59,11 @@ class Home extends React.Component {
           </div>
 
           <div className={styles.expressionModes}>
-              <p className={styles.mode} onClick={() => this.generateSpecific('fear')}>Tristeza</p>
+              <p className={styles.mode} onClick={() => this.generateSpecific('sadness')}>Tristeza</p>
               <p className={styles.mode} onClick={() => this.generateSpecific('fear')}>Medo</p>
-              <p className={styles.mode}>Felicidade</p>
-              <p className={styles.mode}>Raiva</p>
-              <p className={styles.mode}>Nojo</p>
+              <p className={styles.mode} onClick={() => this.generateSpecific('happiness')}>Felicidade</p>
+              <p className={styles.mode} onClick={() => this.generateSpecific('rage')}>Raiva</p>
+              <p className={styles.mode} onClick={() => this.generateSpecific('scorn')}>Nojo</p>
           </div>
   
         </main>
