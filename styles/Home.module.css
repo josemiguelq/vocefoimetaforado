@@ -43,28 +43,6 @@
   text-decoration: none;
 }
 
-#toast-copy {
-  visibility: hidden;
-  min-width: 250px;
-  margin-left: -125px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  border-radius: 2px;
-  padding: 16px;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  bottom: 30px;
-  font-size: 17px;
-}
-
-#snackbar.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -108,7 +86,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;  
   width: 40rem;
-  height: 10rem;
+  height: 15rem;
   color: #000;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
@@ -213,31 +191,11 @@
     flex-direction: column;
   }
   .analysis {
-    width: 20rem;
-    height: 10rem;
+    width: 21rem;
+    height: 18rem;
   }
   .title {
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
-
-  @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
-    to {bottom: 30px; opacity: 1;}
-  }
-  
-  @keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-  }
-  
-  @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-  }
-  
-  @keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
   }
 }
