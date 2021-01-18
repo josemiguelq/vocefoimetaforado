@@ -191,11 +191,18 @@
     flex-direction: column;
   }
   .analysis {
-    width: 21rem;
+    width: 100%;
     height: 18rem;
   }
   .title {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .analysis {
+    width: 100%;
+    height: 18rem;
   }
 }
