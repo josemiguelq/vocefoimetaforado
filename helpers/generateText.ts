@@ -7,8 +7,7 @@ export const modeTypes = [
   ["fear", "Medo"],
   ["happiness", "Felicidade"],
   ["rage", "Raiva"],
-  ["scorn", "Nojo"],
-  ["tedio", "Tédio"]
+  ["scorn", "Nojo"]
 ] as const;
 
 export function generate(mode?: ModeType) {
