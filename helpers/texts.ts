@@ -1,6 +1,9 @@
 export default {
   introduction:
-    "Partindo aqui do sistema FACTS, criado na década de 70 por Paul Ekcman",
+    "Partindo aqui do sistema FACTS, criado na década de 70 por Paul Ekman",
+  tedio: [
+    "Tensão na regiao palperbral e a palpebra superior elevada, e em seguida uma compressão bilateral na boca, uma possível expressão de tédio",
+  ],
   fake: [
     "Conforme  observado Dr. Paul Ekman apse de latência em até 1seg uma expressão genuína.",
     "Podemos observar a linguagem nos ombros, Tensao muscular nos ombros quando esta afirmando algo não é uma tendencia. Quando acredito no que está falando os gestos sao mais abrangentes.",
@@ -14,7 +17,8 @@ export default {
     "Felicidade, sendo percebida pela contraçao bilateral no AU12B",
   ],
   fear: [
-    "Conseguimos notar uma contração nos músculos risórios, que se pontua como um AU20.",
+    "Conseguimos notar uma contração nos músculos risórios, que podemos caracterizar como um AU20.",
+
     "Pode perceber que o canto dos lábios se estica lateralmente, uma microexpressão de medo.",
 
     'Alguns artigos falam pra gente como "The Voice of Deception" ou a CBCA, a pausa narrativa muito prolongada pode ocorrer quando não se tem certeza do que a gente tá falando, como podemos ver aqui neste caso.',
@@ -26,6 +30,7 @@ export default {
   scorn: [
     "Dá para notar uma micro expressão de desprezo, pela assimateria no canto dos lábios AU14 acionado de forma lateral e piscada prolongadao 43E por tempo superior de uma sílaba.",
     "Dá para se observa uma elevação assimétrica no canto dos lábios unilateralmente, caracterizando uma micro expressão de nojo.",
+    "Aqui temos um N64 ou 62 do FACTS, o revirar de olhos que é um comportamento relacionado ao desprezo e desaprovação",
   ],
   sadness: [
     "Conseguimos observar enrrugamento na regiao do queixo logo abaixo do labio inferior e lábios meia ponta pra baixo, um micro expressão de tristeza, AU15 + 17.",
@@ -35,7 +40,9 @@ export default {
     "Existe uma mudança na linha de base e o fluxo de piscadas está bem elevado e também vemos um aumento na abertura ocular, indicando ansiedade.",
   ],
   rage: [
-    "Um pico de contração na regiao glabelar, região entre os olhos, uma micro expressão de raiza.",
-    // 'projeção prossemica '
+    "Um pico de contração na região glabelar e também região entre os olhos, podemos definir como uma micro expressão de raiva.",
+    // 'projeção prossemica ',
+    "Já podemos ver uma expressão de raiva, contração na região glabelar e tensão na regiao palpebral e a tensão nas pregas vocais",
+    'Percebesse que a região glabelar fica mais acentuada e depois menos acentuada no decorrer do vídeo, como abordado no livro de Paul Ekman "Unmasking de Face"',
   ],
 };
