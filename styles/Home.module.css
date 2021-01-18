@@ -110,7 +110,7 @@
 }
 
 .mode {
-  padding: 0.25rem;
+  margin: 0.25rem;
 }
 
 .card {
@@ -193,5 +193,9 @@
   .analysis {
     width: 20rem;
     height: 10rem;
+  }
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }

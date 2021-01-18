@@ -39,7 +39,7 @@ class Home extends React.Component {
 
         <h1 className={styles.title}>
             Você foi metaforado
-          </h1>
+        </h1>
         <main className={styles.main}>
           
 
@@ -69,8 +69,9 @@ class Home extends React.Component {
         </main>
   
         <footer className={styles.footer}>
+          <p className={styles.textFooter}><a href="https://github.com/josemiguelq/vocefoimetaforado" target="_blank">Source Github</a></p>
           <p className={styles.textFooter}><a href="https://www.youtube.com/c/Metaforando">Canal Metaforando</a></p>
-          <p><a href="https://github.com/josemiguelq/vocefoimetaforado" target="_blank">Github</a></p>
+          <p className={styles.textFooter}><a href="https://hotm.art/fU7IeT">Curso</a></p>          
         </footer>
       </div>
     )
