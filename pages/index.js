@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import CopyButton from "../components/CopyButton";
 import texts from './../helpers/texts'
+import {copyToClipboard} from './../helpers/copy'
 import { render } from 'react-dom';
 import {generate, random} from './../helpers/generateText'
 import React from 'react'
@@ -44,7 +45,7 @@ class Home extends React.Component {
           
 
           <div>
-          <p className={styles.analysis}>
+          <p className={styles.analysis} id="analysis-text">
               {this.state.analysis}
           </p>
           </div>
@@ -53,9 +54,7 @@ class Home extends React.Component {
           <div className={styles.description}>
           <p  onClick={this.onClick}>Gerar aleatório</p>
 
-          <p onClick={this.onClick}>
-              <a>Copiar</a>
-          </p>
+          <p onClick={() => copyToClipboard('analysis-text')}>Copiar</p>
           </div>
 
           <div className={styles.expressionModes}>
