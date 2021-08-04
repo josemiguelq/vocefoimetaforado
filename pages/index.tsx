@@ -29,6 +29,11 @@ function Home() {
     <div tw="flex flex-col min-h-screen">
       <Head>
         <title>Você foi metaforado</title>
+<meta name="description" content="Avaliação de micro expressões faciais"/>
+        <meta name="keywords" content="metaforando, expressoes"/>
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="Portuguese" />
       </Head>
 
       <header>
